@@ -1,0 +1,49 @@
+﻿@using EntityLayer;
+@model Product
+@{
+    ViewData["Title"] = "ProductDetail";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h2 class="col-11">Ürün Detayı</h2>
+<hr class="col-11"  />
+<br />
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<div style="margin-top: 40px;margin-bottom: 80px;margin-left:30px; " class="row">
+    <div class="col-md-3">
+
+        <img  src="@Model.ImageUrl" width="100%" height="500px" class="img-fluid">
+    </div>
+    <div class="col-md-9 mt-1">
+        <h3 class="class=" text-primary" style="color:cornflowerblue">
+            <p style="display:inline;font-size:18px;color:black">Ürün Adı:</p> @Model.Name
+        </h3> <hr>
+        <h4 style="color:cornflowerblue"><p style="display:inline;font-size:20px;color:black">Ürün Kategori:</p> @ViewBag.ctg</h4>
+        <div class="mb-5">
+   
+            <br />
+            <h4 style="color:cornflowerblue"> <p style="display:inline;font-size:20px;color:black">Ürün Açıklaması:</p> @Model.Description</h4>
+
+
+            <br />
+            <h4 style="color:darkblue">
+                <p style="display:inline;font-size:21px;color:black;">Ürün Fiyatı:</p>
+                @Model.Price  TL <i class="fa fa-turkish-lira" style="font-size:20px;"></i>
+            </h4>
+
+         
+               
+                </div>
+
+         
+
+            <br />
+            <a href="/admin/UpdateProduct/@Model.Id" class="btn btn-warning btn-lg mr-3">Düzenle</a>
+            <a href="/admin/DeleteProduct/@Model.Id" class="btn btn-danger btn-lg">Sil</a>
+
+        </div>
+    </div>
+ </div>

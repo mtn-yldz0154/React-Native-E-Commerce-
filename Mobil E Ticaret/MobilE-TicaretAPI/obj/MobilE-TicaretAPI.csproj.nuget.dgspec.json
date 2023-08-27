@@ -1,0 +1,417 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\MobilE-TicaretAPI\\MobilE-TicaretAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\BuissnesLayer\\BuissnesLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\BuissnesLayer\\BuissnesLayer.csproj",
+        "projectName": "BuissnesLayer",
+        "projectPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\BuissnesLayer\\BuissnesLayer.csproj",
+        "packagesPath": "C:\\Users\\Metin Yıldız\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\BuissnesLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Metin Yıldız\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\DataAcsessLayer\\DataAcsessLayer.csproj": {
+                "projectPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\DataAcsessLayer\\DataAcsessLayer.csproj"
+              },
+              "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\DataAcsessLayer\\DataAcsessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\DataAcsessLayer\\DataAcsessLayer.csproj",
+        "projectName": "DataAcsessLayer",
+        "projectPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\DataAcsessLayer\\DataAcsessLayer.csproj",
+        "packagesPath": "C:\\Users\\Metin Yıldız\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\DataAcsessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Metin Yıldız\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\EntityLayer\\EntityLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\EntityLayer\\EntityLayer.csproj",
+        "projectName": "EntityLayer",
+        "projectPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\Metin Yıldız\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\EntityLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Metin Yıldız\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\MobilE-TicaretAPI\\MobilE-TicaretAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\MobilE-TicaretAPI\\MobilE-TicaretAPI.csproj",
+        "projectName": "MobilE-TicaretAPI",
+        "projectPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\MobilE-TicaretAPI\\MobilE-TicaretAPI.csproj",
+        "packagesPath": "C:\\Users\\Metin Yıldız\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\MobilE-TicaretAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Metin Yıldız\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\BuissnesLayer\\BuissnesLayer.csproj": {
+                "projectPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\BuissnesLayer\\BuissnesLayer.csproj"
+              },
+              "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\DataAcsessLayer\\DataAcsessLayer.csproj": {
+                "projectPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\DataAcsessLayer\\DataAcsessLayer.csproj"
+              },
+              "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\EntityLayer\\EntityLayer.csproj"
+              },
+              "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\MobilE-Ticaret\\MobilE-Ticaret.csproj": {
+                "projectPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\MobilE-Ticaret\\MobilE-Ticaret.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\MobilE-Ticaret\\MobilE-Ticaret.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\MobilE-Ticaret\\MobilE-Ticaret.csproj",
+        "projectName": "MobilE-Ticaret",
+        "projectPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\MobilE-Ticaret\\MobilE-Ticaret.csproj",
+        "packagesPath": "C:\\Users\\Metin Yıldız\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\MobilE-Ticaret\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Metin Yıldız\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\BuissnesLayer\\BuissnesLayer.csproj": {
+                "projectPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\BuissnesLayer\\BuissnesLayer.csproj"
+              },
+              "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\DataAcsessLayer\\DataAcsessLayer.csproj": {
+                "projectPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\DataAcsessLayer\\DataAcsessLayer.csproj"
+              },
+              "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Metin Yıldız\\OneDrive - klu.edu.tr\\Masaüstü\\Mobil E Ticaret\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

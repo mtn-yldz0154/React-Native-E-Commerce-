@@ -1,0 +1,53 @@
+﻿@using EntityLayer;
+@model List<Product>
+@{
+    ViewData["Title"] = "Products";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class=" container col-md-11">
+    <br />
+    <h3>Ürünler</h3>
+    <hr />
+    <br />
+    <a class="btn btn-primary" href="/admin/addproduct">Ürün Ekle</a>
+    <br />
+
+
+    <table class=" container col-md-12 table table-bordered table-striped table-hover table-dark">
+        <br />
+        <thead>
+            <tr>
+
+                <th>Name</th>
+                <th>Kategori</th>
+                <th>Resim</th>
+                <th>Detay</th>
+                <th>Düzenle</th>
+                <th>Sil</th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Category.Name</td>
+                    <td> <img src="@item.ImageUrl" width="35" height="35" /> </td>
+                    <td><a href="/admin/ProductDetail/@item.Id" class="btn btn-success">Detay</a></td>
+                    <td><a href="/admin/UpdateProduct/@item.Id" class="btn btn-info">Güncelle</a></td>
+                    <td><a href="/admin/DeleteProduct/@item.Id" class="btn btn-danger">Sil</a></td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+
+</div>
+

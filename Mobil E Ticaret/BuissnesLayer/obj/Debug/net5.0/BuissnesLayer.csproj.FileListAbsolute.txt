@@ -1,0 +1,17 @@
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\bin\Debug\net5.0\BuissnesLayer.deps.json
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\bin\Debug\net5.0\BuissnesLayer.dll
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\bin\Debug\net5.0\BuissnesLayer.pdb
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\bin\Debug\net5.0\DataAcsessLayer.dll
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\bin\Debug\net5.0\DataAcsessLayer.pdb
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\obj\Debug\net5.0\BuissnesLayer.csproj.AssemblyReference.cache
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\obj\Debug\net5.0\BuissnesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\obj\Debug\net5.0\BuissnesLayer.AssemblyInfoInputs.cache
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\obj\Debug\net5.0\BuissnesLayer.AssemblyInfo.cs
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\obj\Debug\net5.0\BuissnesLayer.csproj.CoreCompileInputs.cache
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\obj\Debug\net5.0\BuissnesLayer.csproj.CopyComplete
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\obj\Debug\net5.0\BuissnesLayer.dll
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\obj\Debug\net5.0\refint\BuissnesLayer.dll
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\obj\Debug\net5.0\BuissnesLayer.pdb
+C:\Users\Metin Yıldız\OneDrive - klu.edu.tr\Masaüstü\Mobil E Ticaret\BuissnesLayer\obj\Debug\net5.0\ref\BuissnesLayer.dll

@@ -1,0 +1,47 @@
+﻿@using EntityLayer;
+@model List< Gender>
+@{
+    ViewData["Title"] = "Menus";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class=" container col-md-11">
+    <br />
+    <h3>MENÜ</h3>
+    <hr />
+    <br />
+
+
+
+    <table class=" container col-md-12 table table-bordered table-striped table-hover table-dark">
+        <thead>
+            <tr>
+                
+                <th>Name</th>
+                <th>Detay</th>
+                <th>Düzenle</th>
+                <th>Sil</th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                  
+                    <td><a href="/admin/menudetails/@item.Id" class="btn btn-success" >Detay</a></td>
+                    <td><a href="/admin/updatemenu/@item.Id" class="btn btn-info">Güncelle</a></td>
+                    <td><a href="/admin/DeleteMenu/@item.Id" class="btn btn-danger">Sil</a></td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+    <a class="btn btn-primary" href="/admin/AddMenu">Menü Ekle</a>
+</div>
+
